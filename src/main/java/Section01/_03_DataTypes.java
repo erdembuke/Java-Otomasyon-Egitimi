@@ -39,6 +39,15 @@ public class _03_DataTypes {
         // boolean
         boolean myBoolean = true;
 
+        // Casting
+        int veriGenisletme = myByte; // genisletme islemi
+        System.out.println("veriGenisletme = " + veriGenisletme);
+
+        int veriDaraltma = (int) myDouble; // double'yi int e cast ettik
+        System.out.println("veriDaraltma = " + veriDaraltma); // 56 - int e cast ettigimiz icin kusurat kalkti
+
+        int floatDaraltma = (int) myFloat;
+        System.out.println("floatDaraltma = " + floatDaraltma); // 56
 
 
     }
